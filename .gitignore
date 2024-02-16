@@ -1,5 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Personal data
+**/aws-exports.ts
+**/aws-exports.js
+
 # Compiled output
 /dist
 /tmp

@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+$primary-color: #4caf50;
+
+.page-container {
+  background-color: #f7f7f7;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  button {
+    min-width: 15vw;
+  }
+
+  .status-container {
+    margin-bottom: 20px;
+    p {
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  .bucket-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    box-sizing: border-box;
+    button {
+      margin-bottom: 10px;
+      background-color: #8bc34a;
+      color: #fff;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 10px;
+
+      th {
+        background-color: $primary-color;
+        color: #fff;
+      }
+    }
+  }
+}
